@@ -27,7 +27,7 @@ const CustomMap = () => {
     <section className="w-full h-full" id="map">
       <MapContainer
         center={[location.lat, location.lng]}
-        zoom={13}
+        zoom={15}
         scrollWheelZoom={false}
         style={{ width: "100%", height: "100%", zIndex: "10" }}
       >
@@ -37,7 +37,7 @@ const CustomMap = () => {
         />
         <Marker position={[location.lat, location.lng]}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            {location.city}
           </Popup>
         </Marker>
       </MapContainer>

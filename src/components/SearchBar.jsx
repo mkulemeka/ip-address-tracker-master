@@ -8,7 +8,7 @@ const SearchBar = () => {
     setAddress(input.current.value);
   };
   return (
-    <section className="flex flex-row justify-center w-[80%] mx-auto h-[2.75rem] my-5">
+    <section className="flex flex-row justify-center w-[80%] md:w-[35%] mx-auto h-[2.75rem] my-5">
       <input
         type="text"
         className="w-full h-full rounded-l-lg text-input font-medium text-gray-600 outline-0 border-0 pl-4"
