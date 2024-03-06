@@ -24,7 +24,7 @@ const CustomMap = () => {
   }
 
   return (
-    <section className="w-full h-full" id="map">
+    <section className="w-full flex-1" id="map">
       <MapContainer
         center={[location.lat, location.lng]}
         zoom={15}
@@ -36,9 +36,7 @@ const CustomMap = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={[location.lat, location.lng]}>
-          <Popup>
-            {location.city}
-          </Popup>
+          <Popup>{location.city}</Popup>
         </Marker>
       </MapContainer>
     </section>
