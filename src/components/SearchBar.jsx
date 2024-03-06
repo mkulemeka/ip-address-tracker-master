@@ -10,12 +10,14 @@ const SearchBar = () => {
   return (
     <section className="flex flex-row justify-center w-[80%] md:w-[35%] mx-auto h-[2.75rem] my-5">
       <input
+        aria-label="search bar"
         type="text"
         className="w-full h-full rounded-l-lg text-input font-medium text-gray-600 outline-0 border-0 pl-4"
         ref={input}
       />
 
       <button
+        aria-label="search ip address button"
         className="search bg-black h-full w-[3rem] flex items-center justify-center rounded-r-lg"
         onClick={handleClick}
       >

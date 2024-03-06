@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        desktop: "url('./src/images/pattern-bg-desktop.png')",
-        mobile: "url('./src/images/pattern-bg-mobile.png')",
+        desktop: "url('../src/images/pattern-bg-desktop.png')",
+        mobile: "url('../src/images/pattern-bg-mobile.png')",
       },
       viewports: {
         mobile: "375px",
