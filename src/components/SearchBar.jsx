@@ -8,7 +8,7 @@ const SearchBar = () => {
     setAddress(input.current.value);
   };
   return (
-    <section className="flex flex-row justify-center w-[80%] md:w-[35%] mx-auto h-[2.75rem] my-5">
+    <section className="flex flex-row justify-center w-[80%] md:w-[35%] mx-auto h-[2.75rem] my-5" role="search">
       <input
         aria-label="search bar"
         type="text"

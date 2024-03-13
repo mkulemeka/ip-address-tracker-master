@@ -28,7 +28,7 @@ const CustomMap = () => {
   }
 
   return (
-    <section className="w-full flex-1" id="map">
+    <section className="w-full flex-1" id="map" role="main">
       <MapContainer
         center={[location.lat, location.lng]}
         zoom={15}
