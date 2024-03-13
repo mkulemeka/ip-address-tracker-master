@@ -15,7 +15,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -43,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [IP Address Tracker Live site](https://fm-ipaddresstracker.netlify.app/)
 
 ## My process
 
@@ -56,12 +55,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [React](https://reactjs.org/) - JS library
 - [React Leaflet](https://react-leaflet.js.org/) - React components for Leaflet maps
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
+- [Mapbox](https://www.mapbox.com/) - For map tiles
+- [IP Geolocation API](https://geo.ipify.org/) - IP Address tracker API 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
 I learned how to use some of the other react hoooks such as useMemo and useContext.
+I learned how to work with maps, tiles, and how to customize them based on required needs.
 
 ## Author
 
