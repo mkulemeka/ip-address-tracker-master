@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontEnd Mentor Solution](https://www.frontendmentor.io/solutions/responsive-application-using-flexbox-and-apis-o-Z213xAFf)
 - Live Site URL: [IP Address Tracker Live site](https://fm-ipaddresstracker.netlify.app/)
 
 ## My process
